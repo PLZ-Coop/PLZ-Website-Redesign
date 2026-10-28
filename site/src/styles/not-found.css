@@ -1,0 +1,49 @@
+/* ---------- 404 page ---------- */
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  min-height: 70vh;
+  padding: 190px 24px 80px;
+  background: var(--color-lilac);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .not-found {
+    padding-top: 120px;
+  }
+}
+
+.not-found__code {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--color-ink);
+}
+
+.not-found__title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+.not-found__text {
+  max-width: 480px;
+  font-size: 18px;
+  color: var(--color-ink);
+}
+
+.not-found .pill-button--red {
+  margin-top: 16px;
+  background: var(--color-red-cta);
+  color: var(--color-white);
+}
+
+.not-found .pill-button:hover {
+  opacity: 0.9;
+}

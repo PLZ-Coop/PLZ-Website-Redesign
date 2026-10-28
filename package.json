@@ -4,11 +4,10 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "build": "vite build",
-    "dev": "vite"
+    "dev": "serve site"
   },
   "devDependencies": {
     "playwright": "^1.62.1",
-    "vite": "6.3.5"
+    "serve": "^14.2.4"
   }
 }

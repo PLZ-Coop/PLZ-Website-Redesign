@@ -1,0 +1,58 @@
+<!--
+  Shared navbar markup — copy this block verbatim into every page's <body>,
+  right after <body>. Each page must:
+  1. Set the correct `href` values (/ /wizja /o-nas /zaufali-nam /cennik /faq /kontakt)
+  2. Add class="navbar__link is-active" (desktop) and "navbar__drawer-link is-active" (drawer)
+     to the link matching the current page.
+-->
+<nav class="navbar" data-name="Navbar">
+  <div class="navbar__content">
+    <a href="/" class="navbar__logo" aria-label="PLZ — strona główna">
+      <img src="/assets/brand/plz-logo.svg" alt="PLZ" width="140" height="140" />
+    </a>
+
+    <div class="navbar__desktop">
+      <div class="navbar__links" data-name="Navbar">
+        <a class="navbar__link" href="/wizja">Wizja</a>
+        <a class="navbar__link" href="/o-nas">O nas</a>
+        <a class="navbar__link" href="/zaufali-nam">Zaufali nam</a>
+        <a class="navbar__link" href="/cennik">Cennik</a>
+        <a class="navbar__link" href="/faq">FAQ</a>
+        <a class="navbar__link" href="/kontakt">Kontakt</a>
+        <a class="navbar__link" href="https://partner-portal.plz.pl/#/app">Panel Partnera</a>
+      </div>
+      <div class="navbar__cta-row">
+        <a href="https://web.plz.pl/pl/register" class="navbar__cta navbar__cta--join">Dołącz do PLZ</a>
+        <a href="https://web.plz.pl/pl/" class="navbar__cta navbar__cta--login">zaloguj się do plz web</a>
+      </div>
+    </div>
+
+    <button type="button" class="navbar__menu-btn" data-navbar-open aria-expanded="false" aria-label="Menu">
+      <span class="menu-icon"><span></span><span></span><span></span></span>
+    </button>
+  </div>
+
+  <div class="navbar__mobile-panel" data-navbar-panel aria-hidden="true">
+    <div class="navbar__overlay" data-navbar-overlay></div>
+    <div class="navbar__drawer">
+      <div class="navbar__drawer-close">
+        <button type="button" class="navbar__menu-btn" data-navbar-close aria-label="Zamknij menu">
+          <span class="menu-icon menu-icon--open"><span></span><span></span><span></span></span>
+        </button>
+      </div>
+      <div class="navbar__drawer-links">
+        <a class="navbar__drawer-link" href="/wizja"><span>Wizja</span></a>
+        <a class="navbar__drawer-link" href="/o-nas"><span>O nas</span></a>
+        <a class="navbar__drawer-link" href="/zaufali-nam"><span>Zaufali nam</span></a>
+        <a class="navbar__drawer-link" href="/cennik"><span>Cennik</span></a>
+        <a class="navbar__drawer-link" href="/faq"><span>FAQ</span></a>
+          <a class="navbar__drawer-link" href="/kontakt"><span>Kontakt</span></a>
+        <a class="navbar__drawer-link" href="https://partner-portal.plz.pl/#/app"><span>Panel Partnera</span></a>
+      </div>
+      <div class="navbar__drawer-ctas">
+        <a href="https://web.plz.pl/pl/register" class="navbar__cta navbar__cta--join">Dołącz do PLZ</a>
+        <a href="https://web.plz.pl/pl/" class="navbar__cta navbar__cta--login">zaloguj się do plz web</a>
+      </div>
+    </div>
+  </div>
+</nav>

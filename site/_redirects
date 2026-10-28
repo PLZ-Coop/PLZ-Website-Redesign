@@ -1,0 +1,31 @@
+# Stare adresy (Gatsby) -> nowe, 301
+/about/             /o-nas         301
+/about              /o-nas         301
+/contact/           /kontakt       301
+/contact            /kontakt       301
+/trusted/           /zaufali-nam   301
+/trusted            /zaufali-nam   301
+/vision/            /wizja         301
+/vision             /wizja         301
+/offer/             /              301
+/offer              /              301
+/residents/         /              301
+/residents          /              301
+/social-activists/  /              301
+/social-activists   /              301
+/unions/            /              301
+/unions             /              301
+/local-government/  /              301
+/local-government   /              301
+/cooperative/       /              301
+/cooperative        /              301
+/sitemap-index.xml  /sitemap.xml   301
+/sitemap-0.xml      /sitemap.xml   301
+
+# Adresy z ukośnikiem na końcu -> bez (Cloudflare Pages i tak je tak normalizuje)
+/o-nas/             /o-nas         301
+/kontakt/           /kontakt       301
+/zaufali-nam/       /zaufali-nam   301
+/wizja/             /wizja         301
+/cennik/            /cennik        301
+/faq/               /faq           301

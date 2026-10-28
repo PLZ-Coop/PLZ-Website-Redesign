@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nie znaleziono strony</title>
+  <meta name="robots" content="noindex" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+  <link rel="stylesheet" href="/src/styles/base.css" />
+  <link rel="stylesheet" href="/src/styles/navbar.css" />
+  <link rel="stylesheet" href="/src/styles/footer.css" />
+  <link rel="stylesheet" href="/src/styles/not-found.css" />
+</head>
+<body>
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar" data-name="Navbar">
+    <div class="navbar__content">
+      <a href="/" class="navbar__logo" aria-label="PLZ — strona główna">
+        <img src="/assets/brand/plz-logo.svg" alt="PLZ" width="140" height="140" />
+      </a>
+
+      <div class="navbar__desktop">
+        <div class="navbar__links" data-name="Navbar">
+          <a class="navbar__link" href="/wizja">Wizja</a>
+          <a class="navbar__link" href="/o-nas">O nas</a>
+          <a class="navbar__link" href="/zaufali-nam">Zaufali nam</a>
+          <a class="navbar__link" href="/cennik">Cennik</a>
+          <a class="navbar__link" href="/faq">FAQ</a>
+          <a class="navbar__link" href="/kontakt">Kontakt</a>
+          <a class="navbar__link" href="https://partner-portal.plz.pl/#/app">Panel Partnera</a>
+        </div>
+        <div class="navbar__cta-row">
+          <a href="https://web.plz.pl/pl/register" class="navbar__cta navbar__cta--join">Dołącz do PLZ</a>
+          <a href="https://web.plz.pl/pl/" class="navbar__cta navbar__cta--login">zaloguj się do plz web</a>
+        </div>
+      </div>
+
+      <button type="button" class="navbar__menu-btn" data-navbar-open aria-expanded="false" aria-label="Menu">
+        <span class="menu-icon"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+
+    <div class="navbar__mobile-panel" data-navbar-panel aria-hidden="true">
+      <div class="navbar__overlay" data-navbar-overlay></div>
+      <div class="navbar__drawer">
+        <div class="navbar__drawer-close">
+          <button type="button" class="navbar__menu-btn" data-navbar-close aria-label="Zamknij menu">
+            <span class="menu-icon menu-icon--open"><span></span><span></span><span></span></span>
+          </button>
+        </div>
+        <div class="navbar__drawer-links">
+          <a class="navbar__drawer-link" href="/wizja"><span>Wizja</span></a>
+          <a class="navbar__drawer-link" href="/o-nas"><span>O nas</span></a>
+          <a class="navbar__drawer-link" href="/zaufali-nam"><span>Zaufali nam</span></a>
+          <a class="navbar__drawer-link" href="/cennik"><span>Cennik</span></a>
+          <a class="navbar__drawer-link" href="/faq"><span>FAQ</span></a>
+          <a class="navbar__drawer-link" href="/kontakt"><span>Kontakt</span></a>
+          <a class="navbar__drawer-link" href="https://partner-portal.plz.pl/#/app"><span>Panel Partnera</span></a>
+        </div>
+        <div class="navbar__drawer-ctas">
+           <a href="https://web.plz.pl/pl/register" class="navbar__cta navbar__cta--join">Dołącz do PLZ</a>
+          <a href="https://web.plz.pl/pl/" class="navbar__cta navbar__cta--login">zaloguj się do plz web</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="not-found">
+    <p class="not-found__code">404</p>
+    <h1 class="not-found__title">Nie znaleziono strony</h1>
+    <p class="not-found__text">Strona, której szukasz, nie istnieje lub została przeniesiona.</p>
+    <a href="/" class="pill-button pill-button--red">Wróć na stronę główną</a>
+  </main>
+
+  <footer class="dark-footer" data-name="Group_2583">
+    <div class="dark-footer__sitemap">
+      <div class="dark-footer__links">
+        <a href="/cennik">Cennik</a>
+        <a href="/wizja">Wizja</a>
+        <a href="/o-nas">O nas</a>
+        <a href="/zaufali-nam">Zaufali nam</a>
+        <a href="/faq">FAQ</a>
+        <a href="/kontakt">Kontakt</a>
+      </div>
+      <p class="dark-footer__meta">Administratorem strony jest <a href="https://plz.coop/" target="_blank" rel="noopener">PLZ Spółdzielnia</a><br>Od 2021 r. integrujemy polski ruch spółdzielczy i budujemy lokalną odporność.</p>
+      <p class="dark-footer__meta">Zobacz też stronę <a href="https://www.hub.coop/" target="_blank" rel="noopener">CoopTech Hub</a>,<br>czyli naszego Centrum Technologii Spółdzielczych.</p>
+    </div>
+    <div class="dark-footer__illustration">
+      <img alt="" src="/assets/brand/footer-illustration.webp" />
+    </div>
+    <div class="dark-footer__scallop">
+      <svg viewBox="0 0 1920 86" preserveAspectRatio="none" fill="none">
+        <path d="M96 8.39894L0 25.3263V86H1920V25.3263L1824 8.39894C1760.49 -2.79965 1695.51 -2.79964 1632 8.39894C1568.49 19.5974 1503.51 19.5974 1440 8.39894C1376.49 -2.79964 1311.51 -2.79964 1248 8.39894C1184.49 19.5974 1119.51 19.5974 1056 8.39894C992.49 -2.79964 927.51 -2.79964 864 8.39894C800.49 19.5974 735.51 19.5974 672 8.39894C608.49 -2.79964 543.51 -2.79964 480 8.39894C416.49 19.5974 351.51 19.5974 288 8.39894C224.49 -2.79964 159.51 -2.79965 96 8.39894Z" fill="#F3EDFF" />
+      </svg>
+    </div>
+  </footer>
+  <div class="legal-bar">
+    <div class="legal-bar__content">
+      <span>© Copyright 2026 PLZ Spółdzielnia Wszelkie prawa zastrzeżone.</span>
+      <span><a href="/pdf/plz_pl_polityka_prywatnosci.pdf" target="_blank" rel="noopener">Polityka prywatności</a></span>
+      <span><a href="/pdf/plz_child_abuse_policy.html" target="_blank" rel="noopener">Przeciwdziałanie napastowaniu i CSAM</a></span>
+    </div>
+  </div>
+
+  <script type="module" src="/src/js/not-found.js"></script>
+</body>
+</html>
